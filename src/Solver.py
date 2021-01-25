@@ -19,7 +19,7 @@ def Verify():
 	print('Local input : ' + inputLocal)
 
 	if inputLocal == "":
-		# Consume Input From Server API
+		# Consume Input From Server API 
 		# url:	('http://localhost:5000/input')
 		inputServer = requests.get('http://localhost:5000/input')
 		inputFinal = inputServer.text
