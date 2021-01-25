@@ -5,6 +5,6 @@ services:
     image: solverserver
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./DockerFile
     ports:
       - 5001:5001
